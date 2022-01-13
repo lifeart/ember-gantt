@@ -13,6 +13,8 @@
 # misc
 /coverage/
 !.*
+.*/
+.eslintcache
 
 # ember-try
 /.node_modules.ember-try/
@@ -20,4 +22,7 @@
 # dummy
 tests/dummy/app/snippets/
 /bower.json.ember-try
+/npm-shrinkwrap.json.ember-try
 /package.json.ember-try
+/package-lock.json.ember-try
+/yarn.lock.ember-try
