@@ -102,5 +102,8 @@
   "bugs": {
     "url": "https://github.com/kockpit/ember-gantt/issues"
   },
-  "homepage": "https://github.com/kockpit/ember-gantt#readme"
+  "homepage": "https://github.com/kockpit/ember-gantt#readme",
+  "volta": {
+    "node": "16.13.2"
+  }
 }

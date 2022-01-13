@@ -1,8 +1,6 @@
-import Component from '@ember/component';
+import { templateOnlyComponent } from '@glimmer/runtime';
 import layout from '../templates/components/gantt-line-title';
+import { setComponentTemplate } from '@glimmer/manager';
 
-export default Component.extend({
-  layout,
 
-  classNames: ['gantt-line-title']
-});
+export default setComponentTemplate(layout, templateOnlyComponent());
